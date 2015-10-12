@@ -1,0 +1,11 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Thanks!</title>
+        <link rel="stylesheet" href="../static/styles.css"
+    </head>
+    <body>
+        <h1>Thank you, {{ firstname }} {{ lastname }}, for applying to be a {{ job_title }}. Your minimum salary requirement is {{ {"salary:,.0f}".format (salary=salary) }}. </h1>
+    </body>
+</html>
